@@ -1,0 +1,6 @@
+services:
+  authentication:
+    build:
+      dockerfile: ./Dockerfile
+    ports:
+      - "8080:80"
